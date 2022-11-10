@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function() {
-    return view('pages/cool/home');
+    return view('pages/home');
 });
 
 

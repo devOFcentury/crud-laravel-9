@@ -8,12 +8,14 @@
         
     </head>
     <body>
-        <h1>Hello from Quebec</h1>
+        
+          @yield('content')
 
-        <p>It's currently {{ date('h:i A') }}.</p>
-
-        <footer>
-            <p>&copy; Copyright {{ date('y') }} &middot; <a href="/about-us">About us</a></p>
-        </footer>
+          <footer>
+               <p>
+                    &copy; Copyright {{ date('Y') }}
+                    &middot; <a href="/about-us">About us</a>
+               </p>
+          </footer>
     </body>
 </html>
