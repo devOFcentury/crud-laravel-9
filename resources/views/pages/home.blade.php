@@ -1,6 +1,8 @@
 @extends('app')
 
 @section('content')
+
+    <img src="images/quebec-logo.png" alt="quebec flag">
     
     <h1>Hello from Quebec</h1>
 

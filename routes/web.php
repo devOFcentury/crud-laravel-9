@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+// use Illuminate\Support\Facades\Route;
 
 
 
@@ -10,6 +10,6 @@ Route::get('/', function() {
 
 
 
-Route::get('about-us', function() {
+Route::get('page_about-us', function() {
     return view('pages/about');
 })->name('about');

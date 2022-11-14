@@ -4,6 +4,8 @@
 
 
 @section('content')
+
+<img src="images/tdn-logo.jpg" alt="tdn logo">
     
     <p>Built with &hearts; by LES TEACHERS DU NET</p>
 
