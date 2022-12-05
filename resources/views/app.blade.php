@@ -7,17 +7,19 @@
         <title>@yield('title', config('app.name'))</title>    
         @vite('resources/css/app.css')
     </head>
-    <body>
+    <body class="py-6 flex flex-col justify-between min-h-screen items-center">
         
-          @yield('content')
+         <main role="main" class="flex flex-col justify-center items-center">
+            @yield('content')
+         </main>
          
 
           <footer>
-               <p>
+               <p class="text-gray-400">
                     &copy; Copyright {{ date('Y') }}
 
                     @if (!Route::is('about'))
-                        &middot; <a href="{{ route('about') }}">About us</a>
+                        &middot; <a href="{{ route('about') }}" class="text-indigo-500 hover:text-indigo-600 underline">About us</a>
                     @endif
                </p>
           </footer>
