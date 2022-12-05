@@ -1,11 +1,11 @@
 @extends('app')
 
-@section('title', 'about us | '. config('app.name'))
+@section('title', 'about us | '. config('project.variable'))
 
 
 @section('content')
 
-<img src="images/tdn-logo.jpg" alt="tdn logo">
+    <img src="{{ asset('images/tdn-logo.jpg') }}" alt="tdn logo">
     
     <p>Built with &hearts; by LES TEACHERS DU NET</p>
 

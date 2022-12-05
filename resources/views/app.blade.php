@@ -5,12 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>@yield('title', config('app.name'))</title>    
-        
+        @vite('resources/css/app.css')
     </head>
     <body>
         
           @yield('content')
-
          
 
           <footer>

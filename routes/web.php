@@ -3,10 +3,10 @@
 // use Illuminate\Support\Facades\Route;
 
 
-
-Route::get('/', function() {
+// on peut nommer notre route de cette façon
+Route::name('home')->get('/', function() {
     return view('pages/home');
-})->name('home');
+});
 
 
 
